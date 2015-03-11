@@ -1,0 +1,31 @@
+!!!
+%html{:lang => "en"}
+
+	= Haml::Engine.new(File.read("dev/haml/partials/_doc_head.haml")).render
+
+	%body{:leftmargin => "0", :marginwidth => "0", :topmargin => "0", :marginheight => "0", :offset => "0", :bgcolor => "#efefeb"}
+
+		%center
+
+			/ Begin Template: Container
+			%table#templateContainer{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "100%", :height => "100%"}
+
+				%tr#rowHeader
+					%td{:align => "center", :valign => "top"}
+						= Haml::Engine.new(File.read("dev/haml/partials/_sec_1-header.haml")).render
+
+				%tr#rowFeature
+					%td{:align => "center", :valign => "top"}
+						= Haml::Engine.new(File.read("dev/haml/partials/_sec_2-feature.haml")).render
+
+				%tr#rowCallout
+					%td{:align => "center", :valign => "top"}
+						= Haml::Engine.new(File.read("dev/haml/partials/_sec_3-callout.haml")).render
+
+				%tr#rowMain
+					%td{:align => "center", :valign => "top"}
+						= Haml::Engine.new(File.read("dev/haml/partials/_sec_4-main.haml")).render
+
+				%tr#rowFooter
+					%td{:align => "center", :valign => "top"}
+						= Haml::Engine.new(File.read("dev/haml/partials/_sec_5-footer.haml")).render

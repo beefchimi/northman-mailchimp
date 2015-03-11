@@ -1,0 +1,19 @@
+/ Begin Template: Header
+%table#templateHeader{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "910", :height => "100"}
+
+	%tr
+
+		%td.header_wordmark{:align => "left", :valign => "middle", :width => "58%"}
+			%a{:href => "http://northman.co/", :title => "Visit northman.ca", :target => "_blank"}
+				%img{:src => "nm_wordmark.png", :width => "410", :height => "50", :alt => "Northman", "mc:label" => "nm_wordmark"}
+
+		/ *|IFNOT:ARCHIVE_PAGE|*
+		%td.header_browser{:align => "center", :valign => "middle", :width => "24%"}
+			%a.browser-link{:href => "*|ARCHIVE|*", :target => "_blank"} View this newsletter in your browser
+		/ *|END:IF|*
+
+		%td.header_social{:align => "right", :valign => "middle", :width => "18%"}
+			%a.social_twitter{:href => "https://twitter.com/northmanco", :title => "Follow Us On Twitter", :target => "_blank"}
+				%img{:src => "social_twitter.png", :width => "28", :height => "24", :alt => "Twitter", "mc:label" => "social_twitter"}
+			%a.social_facebook{:href => "https://www.facebook.com/northmanco", :title => "Like Us On Facebook", :target => "_blank"}
+				%img{:src => "social_facebook.png", :width => "12", :height => "24", :alt => "Facebook", "mc:label" => "social_facebook"}

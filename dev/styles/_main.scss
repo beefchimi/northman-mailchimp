@@ -1,0 +1,160 @@
+// Foundation
+// ----------------------------------------------------------------------------
+html {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: $hex_L15;
+}
+body {
+	text-align: center;
+	background-color: $hex_cream;
+}
+
+// Common
+// ----------------------------------------------------------------------------
+table.section {
+	border-bottom: 2px solid $hex_orange;
+}
+td.padding-y {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+td.padding-x {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+div.icon {
+	margin-bottom: 60px;
+}
+div.paragraphs {
+	line-height: 1.6;
+}
+div.paragraphs br {
+	margin-bottom: 32px;
+}
+// + links + \\
+a {
+	color: $hex_orange;
+}
+// + headings + \\
+h1,
+h2,
+h3,
+h6 {
+	text-transform: uppercase;
+}
+h1,
+h2 {
+	color: $hex_cream;
+}
+h2,
+h3 {
+	margin-bottom: 32px;
+	font-size: 20px;
+}
+h2,
+h3,
+h6 {
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+h1 {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 72px;
+	letter-spacing: 4px;
+}
+h6 {
+	font-size: 11px;
+	font-style: italic;
+	color: $hex_orange;
+}
+// + button + \\
+a.button {
+	display: inline-block;
+	margin-top: 48px;
+	padding: 16px 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: $hex_L15;
+	border: 2px solid $hex_L15;
+	border-radius: 10px;
+}
+a.button.cream {
+	color: $hex_cream;
+	border-color: $hex_cream;
+}
+a.button.orange {
+	color: $hex_orange;
+	border-color: $hex_orange;
+}
+
+// Header
+// ----------------------------------------------------------------------------
+td.header_wordmark a {
+	display: inline-block;
+}
+td.header_browser a.browser-link {
+	display: inline-block;
+	font-size: 13px;
+	color: $hex_L15;
+}
+td.header_social {
+	text-align: right;
+}
+td.header_social a {
+	display: inline-block;
+}
+td.header_social a.social_twitter {
+	margin-right: 10px;
+}
+
+// Feature
+// ----------------------------------------------------------------------------
+#templateFeature {
+	background-color: $hex_L15;
+	background-image: url('feature_rockclimb.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+// Callout
+// ----------------------------------------------------------------------------
+#templateCallout {
+	background-color: #ff5312;
+}
+#templateCallout div.paragraphs {
+	color: $hex_cream;
+}
+
+
+// Main
+// ----------------------------------------------------------------------------
+#templateMain {
+	border-left: 2px solid $hex_orange;
+	border-right: 2px solid $hex_orange;
+}
+
+// Footer
+// ----------------------------------------------------------------------------
+td.footer_contact,
+td.footer_links {
+	padding-bottom: 60px;
+}
+td.footer_contact h6.contact_email {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+td.footer_links {
+	font-size: 13px;
+	font-weight: 700;
+	color: $hex_orange;
+}
+td.footer_legal div {
+	font-size: 13px;
+	color: $hex_orange;
+}
+td.footer_legal div a {
+	font-weight: 700;
+}
