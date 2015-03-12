@@ -19,13 +19,14 @@ td.padding-y {
 	padding-bottom: 80px;
 }
 td.padding-x {
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 div.icon {
 	margin-bottom: 60px;
 }
 div.paragraphs {
+	font-size: 15px;
 	line-height: 1.6;
 }
 /*
@@ -51,7 +52,7 @@ h2 {
 h2,
 h3 {
 	margin-bottom: 32px;
-	font-size: 20px;
+	font-size: 19px;
 }
 h2,
 h3,
@@ -61,7 +62,7 @@ h6 {
 }
 h1 {
 	font-family: "Arial Black", "Avenir-Black", "Arial Bold", Gadget, sans-serif;
-	font-size: 72px;
+	font-size: 60px;
 	letter-spacing: 4px;
 }
 h6 {
@@ -76,6 +77,7 @@ div.link-wrap {
 a.button {
 	display: inline-block;
 	padding: 16px 32px;
+	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -96,11 +98,6 @@ a.button.orange {
 // ----------------------------------------------------------------------------
 td.header_wordmark a {
 	display: inline-block;
-}
-td.header_browser a.browser-link {
-	display: inline-block;
-	font-size: 13px;
-	color: $hex_L15;
 }
 td.header_social {
 	text-align: right;
@@ -140,22 +137,29 @@ td.header_social a.social_twitter {
 
 // Footer
 // ----------------------------------------------------------------------------
-td.footer_contact,
 td.footer_links {
+	padding-bottom: 10px;
+}
+td.footer_contact,
+td.footer_browser {
 	padding-bottom: 60px;
+}
+td.footer_links,
+td.footer_legal div,
+td.footer_browser a.browser-link {
+	font-size: 13px;
+	color: $hex_orange;
 }
 td.footer_contact h6.contact_email {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-td.footer_links {
-	font-size: 13px;
+td.footer_links,
+td.footer_browser a.browser-link {
 	font-weight: 700;
-	color: $hex_orange;
 }
-td.footer_legal div {
-	font-size: 13px;
-	color: $hex_orange;
+td.footer_browser a.browser-link {
+	display: inline-block;
 }
 td.footer_legal div a {
 	font-weight: 700;

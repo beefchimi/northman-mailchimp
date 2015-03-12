@@ -1,18 +1,13 @@
 / Begin Template: Header
-%table#temp_header{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "910", :height => "100"}
+%table#temp_header{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "600", :height => "100"}
 
 	%tr
 
-		%td.header_wordmark{:align => "left", :valign => "middle", :width => "58%"}
+		%td.header_wordmark{:align => "left", :valign => "middle", :width => "80%"}
 			%a{:href => "http://northman.co/", :title => "Visit northman.ca", :target => "_blank"}
 				%img{:src => "https://gallery.mailchimp.com/83bb440596cc17fe903cfdb39/images/f1e954a6-d1c1-4b00-aa03-682a1ed95e55.png", :width => "410", :height => "50", :alt => "Northman"}
 
-		/ *|IFNOT:ARCHIVE_PAGE|*
-		%td.header_browser{:align => "center", :valign => "middle", :width => "24%"}
-			%a.browser-link{:href => "*|ARCHIVE|*", :target => "_blank"} View this newsletter in your browser
-		/ *|END:IF|*
-
-		%td.header_social{:align => "right", :valign => "middle", :width => "18%"}
+		%td.header_social{:align => "right", :valign => "middle", :width => "20%"}
 			%a.social_twitter{:href => "https://twitter.com/northmanco", :title => "Follow Us On Twitter", :target => "_blank"}
 				%img{:src => "https://gallery.mailchimp.com/83bb440596cc17fe903cfdb39/images/12ab7e11-83f1-43de-a716-1ea886ad63e4.png", :width => "28", :height => "24", :alt => "Twitter"}
 			%a.social_facebook{:href => "https://www.facebook.com/northmanco", :title => "Like Us On Facebook", :target => "_blank"}
