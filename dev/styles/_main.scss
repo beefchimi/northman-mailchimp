@@ -28,9 +28,11 @@ div.icon {
 div.paragraphs {
 	line-height: 1.6;
 }
+/*
 div.paragraphs br {
 	margin-bottom: 32px;
 }
+*/
 // + links + \\
 a {
 	color: $hex_orange;
@@ -58,7 +60,7 @@ h6 {
 	letter-spacing: 2px;
 }
 h1 {
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-family: "Arial Black", "Avenir-Black", "Arial Bold", Gadget, sans-serif;
 	font-size: 72px;
 	letter-spacing: 4px;
 }
@@ -68,9 +70,11 @@ h6 {
 	color: $hex_orange;
 }
 // + button + \\
+div.link-wrap {
+	margin-top: 48px;
+}
 a.button {
 	display: inline-block;
-	margin-top: 48px;
 	padding: 16px 32px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -110,28 +114,26 @@ td.header_social a.social_twitter {
 
 // Feature
 // ----------------------------------------------------------------------------
-#templateFeature {
+#temp_feature {
 	background-color: $hex_L15;
-	background-image: url('feature_rockclimb.jpg');
+	/*@editable*/background-image: url('https://gallery.mailchimp.com/83bb440596cc17fe903cfdb39/images/272a6d2d-5703-48b7-8806-96b919bf741c.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
-
 // Callout
 // ----------------------------------------------------------------------------
-#templateCallout {
+#temp_callout {
 	background-color: #ff5312;
 }
-#templateCallout div.paragraphs {
+#temp_callout div.paragraphs {
 	color: $hex_cream;
 }
 
-
 // Main
 // ----------------------------------------------------------------------------
-#templateMain {
+#temp_main {
 	border-left: 2px solid $hex_orange;
 	border-right: 2px solid $hex_orange;
 }

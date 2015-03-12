@@ -47,7 +47,8 @@ gulp.task('haml', function() {
 gulp.task('styles', function() {
 
 	return plugins.rubySass(paths.styles.src + 'styles.scss', {
-			sourcemap: false // true
+			sourcemap: false, // true
+			style: 'expanded'
 		})
 		// .pipe(plugins.sourcemaps.write())
 		// .pipe(plugins.concat('styles.css')) // concat with sourcemap if --dev
