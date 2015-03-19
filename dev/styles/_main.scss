@@ -34,10 +34,6 @@ div.paragraphs br {
 	margin-bottom: 32px;
 }
 */
-// + links + \\
-a {
-	color: $hex_orange;
-}
 // + headings + \\
 h1,
 h2,
@@ -127,6 +123,10 @@ td.header_social a.social_twitter {
 #temp_callout div.paragraphs {
 	color: $hex_cream;
 }
+#temp_callout div.paragraphs a {
+	color: $hex_L15 !important;
+	text-decoration: underline;
+}
 
 // Main
 // ----------------------------------------------------------------------------
@@ -134,9 +134,15 @@ td.header_social a.social_twitter {
 	border-left: 2px solid $hex_orange;
 	border-right: 2px solid $hex_orange;
 }
+#temp_main div.paragraphs a {
+	color: $hex_orange;
+}
 
 // Footer
 // ----------------------------------------------------------------------------
+#temp_footer a {
+	color: $hex_orange;
+}
 td.footer_links {
 	padding-bottom: 10px;
 }
@@ -145,10 +151,13 @@ td.footer_browser {
 	padding-bottom: 60px;
 }
 td.footer_links,
+td.footer_legal div {
+	color: $hex_orange;
+}
+td.footer_links,
 td.footer_legal div,
 td.footer_browser a.browser-link {
 	font-size: 13px;
-	color: $hex_orange;
 }
 td.footer_contact h6.contact_email {
 	margin-top: 10px;

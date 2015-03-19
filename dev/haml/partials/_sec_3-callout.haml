@@ -13,7 +13,8 @@
 
 						%h2{"mc:edit" => "edit_callout-title"} Lorem ipsum dolor sit amet.
 
-						.paragraphs{"mc:edit" => "edit_callout-content"} Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident lorem ipsum dolor. Incidunt ut labore et dolore magnam aliquam eos qui ratione voleptatem sequi quae lib alios.
+						:plain
+							<div class="paragraphs" mc:edit="edit_callout-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <a href="mailto:captain@joe.com" title="totam rem aperiam">totam rem aperiam</a>, eaque ipsa quae ab illo inventore veritatis et vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. At vero eos et <a href="http://northman.co" title="accusamus">accusamus</a> et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident lorem ipsum dolor. Incidunt ut labore et dolore magnam aliquam eos qui <a href="tel:+1-844-207-7522" title="Call Us">1-844-207-7522</a> ratione voleptatem sequi quae lib alios.</div>
 
 						.link-wrap{"mc:hideable" => true, "mc:edit" => "edit_callout-link"}
 							%a.button.cream{:href => "http://northman.co/why-northman/", :title => "Read More", :target => "_blank"} Read More
