@@ -107,44 +107,44 @@ td.header_social a.social_twitter {
 
 // Feature
 // ----------------------------------------------------------------------------
-#temp_feature {
+#tpl_feature {
 	background-color: $hex_L15;
 	/*@editable*/background-image: url('https://gallery.mailchimp.com/83bb440596cc17fe903cfdb39/images/272a6d2d-5703-48b7-8806-96b919bf741c.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
-#temp_feature table {
+#tpl_feature table {
 	margin-left: auto;
 	margin-right: auto;
 }
 
 // Callout
 // ----------------------------------------------------------------------------
-#temp_callout {
-	background-color: #ff5312;
+#tpl_callout {
+	background-color: $hex_orange;
 }
-#temp_callout div.paragraphs {
+#tpl_callout div.paragraphs {
 	color: $hex_cream;
 }
-#temp_callout div.paragraphs a {
+#tpl_callout div.paragraphs a {
 	color: $hex_L15 !important;
 	text-decoration: underline;
 }
 
 // Main
 // ----------------------------------------------------------------------------
-#temp_main {
+#tpl_main {
 	border-left: 2px solid $hex_orange;
 	border-right: 2px solid $hex_orange;
 }
-#temp_main div.paragraphs a {
+#tpl_main div.paragraphs a {
 	color: $hex_orange;
 }
 
 // Footer
 // ----------------------------------------------------------------------------
-#temp_footer a {
+#tpl_footer a {
 	color: $hex_orange;
 }
 td.footer_links {
